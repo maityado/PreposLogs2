@@ -5,7 +5,7 @@ class Database {
   async connect() {
     try {
       await mongoose.connect(
-        "mongodb+srv://preposlogsusers:ado123@@@cluster0-8jsv4.mongodb.net/preposlogs?retryWrites=true",
+        "mongodb+srv://preposlogsusers:ado123@@@cluster0-8jsv4.mongodb.net/preposlogss?retryWrites=true",
         { useNewUrlParser: true }
       );
       console.log("Connected databases.");
